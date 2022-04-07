@@ -10,40 +10,35 @@ function nextClick() {
   if (slide.classList.contains('slider1') === true) {
     slide.classList.remove('slider1');
     slide.classList.add('slider2');
-    count = 0;
+
   } else if (slide.classList.contains('slider2') === true) {
     slide.classList.remove('slider2');
     slide.classList.add('slider3');
-    count = 0;
   } else if (slide.classList.contains('slider3') === true) {
     slide.classList.remove('slider3');
     slide.classList.add('slider4');
-    count = 0;
   } else {
     slide.classList.remove('slider4');
     slide.classList.add('slider1');
-    count = 0;
   }
+  count = 0;
 };
 
 function prevClick() {
   if (slide.classList.contains('slider1') === true) {
     slide.classList.remove('slider1');
     slide.classList.add('slider4');
-    count = 0;
   } else if (slide.classList.contains('slider2') === true) {
     slide.classList.remove('slider2');
     slide.classList.add('slider1');
-    count = 0;
   } else if (slide.classList.contains('slider3') === true) {
     slide.classList.remove('slider3');
     slide.classList.add('slider2');
-    count = 0;
   } else {
     slide.classList.remove('slider4');
     slide.classList.add('slider3');
-    count = 0;
   }
+  count = 0;
 };
 
 let count = 0;
