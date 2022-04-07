@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.mainvisial {
+  max-width: 100vw;
+  font-size: 0;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #be5656;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  line-height: 60px;
+}
+
+.image {
+  width: 100%;
+  font-size: 0;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #b49d5e;
+}
