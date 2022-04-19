@@ -1,0 +1,53 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 100vw;
+  position: relative;
+}
+
+.stalker {
+  border-radius: 100%;
+  background: #000000;
+  position: fixed;
+  top: -8px;
+  left: -8px;
+  width: 12px;
+  height: 12px;
+  z-index: 1;
+  -webkit-transition: 0.5s cubic-bezier(0, 0, 0.2, 1);
+  transition: 0.5s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.slider {
+  width: 100vw;
+  height: 33vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  background-size: 100%;
+  margin-bottom: 10px;
+}
+
+.slider1 {
+  background-image: url("../image/スライダー1枚目.jpg");
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  gap: 10px;
+}
+
+.list img {
+  width: 100%;
+}
+/*# sourceMappingURL=common.css.map */
