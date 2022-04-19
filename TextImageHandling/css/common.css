@@ -48,9 +48,7 @@ img {
   display: block;
 }
 
-.origin1,
-.origin2,
-.origin3,
+.origin,
 .slide {
   -webkit-transition: 1s;
   transition: 1s;

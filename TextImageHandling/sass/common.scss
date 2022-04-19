@@ -41,10 +41,7 @@ img {
   display: block;
 }
 
-
-.origin1,
-.origin2,
-.origin3,
+.origin,
 .slide {
   transition: 1s;
 }
@@ -52,8 +49,6 @@ img {
 .text-hide {
   display: none;
 }
-
-
 
 .hide {
   opacity: 0;
